@@ -1,0 +1,374 @@
+@import "variables.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.header{
+    height: 60px;
+    background-color: #108852;
+    opacity: 90%;
+    
+   h1{
+    padding-top: 7px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: $mainfont;
+   }
+}
+
+.main{     
+    height: 20%;
+    background-image: url("/imgs/mario.jpg");
+    background-size: min 1500px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: $mainfont;
+    
+    .container{
+        padding: 10px; 
+            
+        h1{
+            padding-top: 50px;
+            text-align: center;
+            color: $primary-color;
+            font-size: $font-lg;
+        }
+        p{
+            padding-top: 15px;
+            padding-bottom: 60px;
+            margin: 5px;
+            text-align: center;
+            color: $secondary-color;
+            font-size: $font-md;
+        }
+        h3{
+            padding-top: 15px;
+            padding-bottom: 60px;
+            margin: 5px;
+            text-align: center;
+            color: $primary-color;
+        }
+        
+        .btn{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            width: 350px;
+            height: 80px;
+            border-radius: 40px;
+            background-color: $primary-green;
+            opacity: 85%;
+            color: $secondary-green;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            
+            h3{
+                padding-top: 25px;
+                color: $secondary-green; 
+                font-size: $font-md;
+            }
+        }
+        .btn:hover{
+            cursor: pointer;
+            opacity: 95%;
+        }
+
+        .symbol{
+            margin-top: 150px;
+            width: 60px;
+            height: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+       }
+
+       .txt{
+        font-size: $font-sm;
+       }
+    }
+}
+
+.section{     
+    /*background-image: url("/imgs/mario.jpg");*/
+    background-color: $primary-green;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: $mainfont;
+    
+    .container{
+        padding: 10px;        
+       
+        h1{
+            padding-top: 70px;
+            text-align: center;
+            color: $third-green;            
+            font-size: $font-lg;
+        }
+        h3{
+            padding-top: 15px;
+            padding-bottom: 60px;
+            margin: 5px;
+            text-align: center;
+            color: $secondary-green;
+            font-size: $font-md;
+        }
+        
+        .btn{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            width: 350px;
+            height: 80px;
+            border-radius: 40px;
+            background-color: $secondary-red;
+            opacity: 85%;
+            color: $secondary-green;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            
+            h3{
+                padding-top: 25px;
+                color: $primary-color; 
+            }
+        }
+        .btn:hover{
+            cursor: pointer;
+            opacity: 95%;
+        }
+        .symbol{
+            padding-top: 60px;            
+            max-width: 500px;
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+}
+
+.space{     
+    /*background-image: url("/imgs/mario.jpg");*/
+    background-color: $secondary-red;
+    background-repeat: no-repeat;
+    background-position: top;   
+    
+    .container{
+        padding-top: 10px;        
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: $mainfont;
+        h1{
+            padding-top: 70px;
+            text-align: center;
+            color: $primary-color;
+            font-size: $font-lg;
+        }
+        h3{
+            padding-top: 15px;
+            padding-bottom: 60px;
+            margin: 5px;
+            text-align: center;
+            color: $secondary-color;
+            font-size: $font-md;
+        }
+        
+        .btn{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            width: 350px;
+            height: 80px;
+            opacity: 85%;
+            border-radius: 40px;
+            background-color: $third-green;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            
+            h3{
+                padding-top: 25px;
+                color: $primary-color;
+            }
+        }
+        .btn:hover{
+            cursor: pointer;
+            opacity: 100%;
+        }
+        .symbol{
+            padding-top: 60px;            
+            max-width: 600px;
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+}
+
+.gallery{     
+    /*background-image: url("/imgs/mario.jpg");*/
+    background-color:#f7c162;
+    font-family: $mainfont;
+    
+    .container{
+        padding: 10px;        
+       
+        h1{
+            padding-top: 70px;
+            text-align: center;
+            color: $primary-color;
+            font-size: $font-lg;
+        }
+        h3{
+            padding-top: 15px;
+            padding-bottom: 60px;
+            margin: 5px;
+            text-align: center;
+            color: $primary-color;
+            font-size: $font-md;
+        }
+        
+        .btn{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            width: 350px;
+            height: 80px;
+            opacity: 85%;
+            border-radius: 40px;
+            background-color: $secondary-green;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            
+            h3{
+                padding-top: 25px;
+                color: $primary-color;  
+            }
+        }
+        .btn:hover{
+            cursor: pointer;
+            opacity: 95%;
+        }
+        .sample{
+            width: 90%;
+            max-width: 500px;
+            height: 100%;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            display: block;
+            border-radius: 50px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.29);
+        }
+    }
+}
+
+.feedback{     
+    background-image: url("/imgs/feedback.jpg");    
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    background-size: 2560px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    font-family: $mainfont;
+    
+    .container{
+        padding: 10px;  
+        padding-bottom: 100px;      
+       
+        h1{
+            padding-top: 30px;
+            text-align: center;
+            color: $primary-color;
+            font-size: $font-lg;
+        }
+
+        h3{
+            padding-top: 15px;
+            padding-bottom: 60px;
+            margin: 5px;
+            text-align: center;
+            color: $primary-color;
+            font-size: $font-md;
+        }
+        
+        .btn{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            width: 350px;
+            height: 80px;
+            opacity: 85%;
+            border-radius: 40px;
+            background-color: $primary-red;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            
+            h3{
+                padding-top: 25px;
+                color: $primary-color;  
+            }
+        }
+        .btn:hover{
+            cursor: pointer;
+            opacity: 95%;
+        }
+        .symbol{
+            margin-top: 150px;
+            width: 50px;
+            height: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+}
+
+.footer{     
+    /*background-image: url("/imgs/mario.jpg");*/
+    height: auto;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: $mainfont;
+    
+    .container{
+        padding: 10px;  
+        padding-bottom: 100px;   
+        border-top: solid 1.5px #3D3A38;
+       
+        ul{
+            font-size: 30px;
+            padding-top: 20px;
+            padding-bottom: 60px;
+            margin: 5px;
+            padding-left: 0px;
+            text-align: center;
+            color: $primary-color;
+            list-style: none;
+            
+            li{
+                margin: 20px;
+            }
+            li:hover{
+                cursor: pointer;
+            }
+        }
+
+        .symbol{
+            width: 50px;
+            height: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        h3{
+            padding-top: 15px;
+            margin: 5px;
+            text-align: center;
+            color: $secondary-color;
+            font-size: $font-sm;
+        }
+        
+       
+    }
+}

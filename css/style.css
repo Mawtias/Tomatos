@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  height: 60px;
+  background-color: #108852;
+  opacity: 90%;
+}
+.header h1 {
+  padding-top: 7px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  height: 20%;
+  background-image: url("/imgs/mario.jpg");
+  background-size: min 1500px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+.main .container {
+  padding: 10px;
+}
+.main .container h1 {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+.main .container p {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin: 5px;
+  text-align: center;
+  color: #bec1c7;
+  font-size: 20px;
+}
+.main .container h3 {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+.main .container .btn {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 350px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #80dd91;
+  opacity: 85%;
+  color: #00663c;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.main .container .btn h3 {
+  padding-top: 25px;
+  color: #00663c;
+  font-size: 20px;
+}
+.main .container .btn:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+.main .container .symbol {
+  margin-top: 150px;
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.main .container .txt {
+  font-size: 15px;
+}
+
+.section {
+  /*background-image: url("/imgs/mario.jpg");*/
+  background-color: #80dd91;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "Poppins", sans-serif;
+}
+.section .container {
+  padding: 10px;
+}
+.section .container h1 {
+  padding-top: 70px;
+  text-align: center;
+  color: #0c4524;
+  font-size: 45px;
+}
+.section .container h3 {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin: 5px;
+  text-align: center;
+  color: #00663c;
+  font-size: 20px;
+}
+.section .container .btn {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 350px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #dc3b37;
+  opacity: 85%;
+  color: #00663c;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.section .container .btn h3 {
+  padding-top: 25px;
+  color: white;
+}
+.section .container .btn:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+.section .container .symbol {
+  padding-top: 60px;
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.space {
+  /*background-image: url("/imgs/mario.jpg");*/
+  background-color: #dc3b37;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.space .container {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.space .container h1 {
+  padding-top: 70px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+.space .container h3 {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin: 5px;
+  text-align: center;
+  color: #bec1c7;
+  font-size: 20px;
+}
+.space .container .btn {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 350px;
+  height: 80px;
+  opacity: 85%;
+  border-radius: 40px;
+  background-color: #0c4524;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.space .container .btn h3 {
+  padding-top: 25px;
+  color: white;
+}
+.space .container .btn:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+.space .container .symbol {
+  padding-top: 60px;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.gallery {
+  /*background-image: url("/imgs/mario.jpg");*/
+  background-color: #f7c162;
+  font-family: "Poppins", sans-serif;
+}
+.gallery .container {
+  padding: 10px;
+}
+.gallery .container h1 {
+  padding-top: 70px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+.gallery .container h3 {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.gallery .container .btn {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 350px;
+  height: 80px;
+  opacity: 85%;
+  border-radius: 40px;
+  background-color: #00663c;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.gallery .container .btn h3 {
+  padding-top: 25px;
+  color: white;
+}
+.gallery .container .btn:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+.gallery .container .sample {
+  width: 90%;
+  max-width: 500px;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: block;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.29);
+}
+
+.feedback {
+  background-image: url("/imgs/feedback.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-size: 2560px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+.feedback .container {
+  padding: 10px;
+  padding-bottom: 100px;
+}
+.feedback .container h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+.feedback .container h3 {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.feedback .container .btn {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 350px;
+  height: 80px;
+  opacity: 85%;
+  border-radius: 40px;
+  background-color: #c20018;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.feedback .container .btn h3 {
+  padding-top: 25px;
+  color: white;
+}
+.feedback .container .btn:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+.feedback .container .symbol {
+  margin-top: 150px;
+  width: 50px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.footer {
+  /*background-image: url("/imgs/mario.jpg");*/
+  height: auto;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "Poppins", sans-serif;
+}
+.footer .container {
+  padding: 10px;
+  padding-bottom: 100px;
+  border-top: solid 1.5px #3D3A38;
+}
+.footer .container ul {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin: 5px;
+  padding-left: 0px;
+  text-align: center;
+  color: white;
+  list-style: none;
+}
+.footer .container ul li {
+  margin: 20px;
+}
+.footer .container ul li:hover {
+  cursor: pointer;
+}
+.footer .container .symbol {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.footer .container h3 {
+  padding-top: 15px;
+  margin: 5px;
+  text-align: center;
+  color: #bec1c7;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
