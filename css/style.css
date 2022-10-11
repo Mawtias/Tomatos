@@ -4,16 +4,26 @@
   margin: 0;
 }
 
-.header {
+.top {
+  display: flex;
   height: 60px;
+}
+.top .header {
+  width: 3000px;
   background-color: #108852;
   opacity: 90%;
 }
-.header h1 {
+.top .header h1 {
   padding-top: 7px;
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
+}
+.top img {
+  display: falex;
+  width: 60px;
+  background-color: #108852;
+  opacity: 90%;
 }
 
 .main {
